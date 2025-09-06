@@ -1,0 +1,19 @@
+{
+  "name": "wia-code-sdk",
+  "version": "1.0.0",
+  "description": "JavaScript SDK for WIA Code System",
+  "main": "wia-code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wia",
+    "wiacode",
+    "gps",
+    "geocoding",
+    "address"
+  ],
+  "author": "WIA Family",
+  "license": "MIT",
+  "homepage": "https://github.com/wia-family/wia-code-sdk-js"
+}
