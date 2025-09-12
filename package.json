@@ -1,19 +1,20 @@
 {
-  "name": "wia-code-sdk",
+  "name": "wia-pincode-sdk",
   "version": "1.0.0",
-  "description": "JavaScript SDK for WIA Code System",
-  "main": "wia-code.js",
+  "description": "JavaScript SDK for WIA Pin Code System",
+  "main": "wia-pincode.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "wia",
-    "wiacode",
+    "wiapincode",
     "gps",
     "geocoding",
-    "address"
+    "address",
+    "pincode"
   ],
   "author": "WIA Family",
   "license": "MIT",
-  "homepage": "https://github.com/wia-family/wia-code-sdk-js"
+  "homepage": "https://github.com/wia-family/wia-pincode-sdk-js"
 }
