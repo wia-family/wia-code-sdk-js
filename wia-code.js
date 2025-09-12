@@ -1,14 +1,13 @@
 /**
- * WIA Code JavaScript SDK
+ * WIA Pin Code JavaScript SDK
  * 9-digit universal address system
  */
-
-class WIACode {
+class WIAPinCode {
   constructor() {
     this.version = '1.0.0';
   }
-
-  // GPS to WIA Code
+  
+  // GPS to WIA Pin Code
   encode(lat, lng) {
     // Simplified algorithm
     const latNorm = Math.floor((lat + 90) * 1000);
@@ -21,11 +20,11 @@ class WIACode {
     
     return `${part1}-${part2}-${part3}`;
   }
-
-  // WIA Code to GPS
+  
+  // WIA Pin Code to GPS
   decode(code) {
     const parts = code.split('-');
-    if (parts.length !== 3) throw new Error('Invalid WIA Code format');
+    if (parts.length !== 3) throw new Error('Invalid WIA Pin Code format');
     
     // Reverse algorithm (simplified)
     return {
@@ -35,4 +34,4 @@ class WIACode {
   }
 }
 
-module.exports = WIACode;
+module.exports = WIAPinCode;
